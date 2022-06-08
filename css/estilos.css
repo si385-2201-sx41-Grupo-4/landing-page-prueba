@@ -311,8 +311,35 @@ ul.slider li:target{
 .Planes .box-container.box ul li .fa-check{
     color: var(--Darkgray);
 }
-
-
+.Companies img{
+    padding: 1rem;
+    width:11rem;
+    height:10rem;
+    border:3px solid #000000;
+    margin-left: 9rem;
+}
+.Companies  .companias {
+    margin-top: 9rem;
+    height:80rem;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.Companies  .companias div {
+    align-items: center;
+    width: 30rem;
+    height: 20rem;
+    background-color: #ffffff;
+    float: left;
+    overflow: hidden;
+    margin-left: 7rem;
+}
+.Companies  .companias  h3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--Blue);
+    font-weight: bolder;
+}
 
 
 
