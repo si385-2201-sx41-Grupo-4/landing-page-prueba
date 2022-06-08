@@ -265,6 +265,27 @@ ul.slider li:target{
     color: var(--Blue);
     font-weight: bolder;
 }
+
+/* NOVEDADES */
+.Novedades {
+    padding-top: 10rem;
+    text-align: center;
+}
+.Novedades .sub{
+    margin: 3rem 0;
+}
+
+.Novedades .box-container img{
+    width: 30rem;
+    height: 25rem;
+    margin: 5rem;
+}
+.Novedades .box-container .btn{
+    border-color: var(--Cyan);
+    font-size: 1.7rem;
+    color:var(--Blue);
+}
+/* PLANES */
 .Planes .box-container{
     display: flex;
     align-items: center;
@@ -312,7 +333,65 @@ ul.slider li:target{
     color: var(--Darkgray);
 }
 
+/* PIE DE PÁGINA */
+.Pie-de-pagina{
+    padding-top: 10rem;
+    background:url("") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.Pie-de-pagina .box-container{
+    box-shadow: inset 0px 12px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Pie-de-pagina .box-container .box{
+    flex: 2rem;
+    margin: 3rem;
+
+}
+.Pie-de-pagina .box-container .box h3{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    color:var(--Cyan);
+    text-decoration: underline;
+}
+.Pie-de-pagina .box-container .box img
+{
+    height: 16px;
+    float: left;
+    margin-right: 0.5rem;
+}
+.Pie-de-pagina .box-container .box p{
+    font-size: 1.5rem;
+    color:var(--Darkgray);
+}
+.Pie-de-pagina .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding:0.5rem 0;
+    color:var(--Darkgray);
+}
+.Pie-de-pagina .box-container .box a:hover{
+    text-decoration: underline;
+    color: var(--Cyan)
+}
+
+.Pie-de-pagina .box-container .box .info{
+    display:flex;
+    align-items: center;
+}
+.Pie-de-pagina .credit{
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    color:var(--Cyan);
+    border-top: .1rem solid var(--Darkgray);
+    padding:1.5rem 1rem;
+    text-align: center;
+}
 
 
 
@@ -386,6 +465,13 @@ ul.slider li:target{
     html{
         font-size: 50%;
     }
-}
+    .about .column .content .buttons a{
+        width:100%;
+        text-align: center;
+    }
 
+    .about .column .content .buttons a:last-child{
+        margin: 1rem 0;
+    }
+}
 
